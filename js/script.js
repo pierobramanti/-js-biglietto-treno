@@ -28,3 +28,10 @@ else if (age >= 65) {
     discount = 40 / 100;
 }
 
+// INSERISCO LE ULTIME CONDIZIONI DI CALCOLO//
+let price_discounted = price * discount;
+
+let final_price = (price - price_discounted).toFixed(2);
+
+
+document.getElementById("price").innerHTML = `Il prezzo del tuo biglietto è di: ${final_price} €.`
