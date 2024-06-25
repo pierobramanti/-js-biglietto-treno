@@ -17,3 +17,13 @@ console.log(price);
 // CREO LA VARIABILE DISCOUNT E LE ASSEGNO IL VALORE 0//
 let discount = 0;
 console.log(discount)
+
+// CREO LE CONDIZIONI DI SCONTO//
+
+if (age < 18) {
+    reduction = 20 / 100;
+}
+
+else if (age >= 65) {
+    reduction = 40 / 100;
+}
