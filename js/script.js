@@ -21,9 +21,10 @@ console.log(discount)
 // CREO LE CONDIZIONI DI SCONTO//
 
 if (age < 18) {
-    reduction = 20 / 100;
+    discount = 20 / 100;
 }
 
 else if (age >= 65) {
-    reduction = 40 / 100;
+    discount = 40 / 100;
 }
+
