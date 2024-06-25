@@ -9,3 +9,7 @@ console.log(age)
 // CREO LA VARIABILE COST_KM E LE ASSEGNO IL VALORE (0.21)//
 let cost_km = 0.21;
 console.log(cost_km)
+
+// CREO LA VARIABILE PRICE LE ASSEGNO IL VALORE CON MOLTIPLICAZIONE//
+let price = cost_km * km;
+console.log(price);
