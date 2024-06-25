@@ -13,3 +13,7 @@ console.log(cost_km)
 // CREO LA VARIABILE PRICE LE ASSEGNO IL VALORE CON MOLTIPLICAZIONE//
 let price = cost_km * km;
 console.log(price);
+
+// CREO LA VARIABILE DISCOUNT E LE ASSEGNO IL VALORE 0//
+let discount = 0;
+console.log(discount)
